@@ -1,0 +1,53 @@
+package com.assesmentPortal2;
+
+import jakarta.servlet.ServletException;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+import java.io.IOException;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+
+/**
+ * Servlet implementation class UpdateTestInfo
+ */
+public class UpdateTestInfo extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
+    /**
+     * @see HttpServlet#HttpServlet()
+     */
+    public UpdateTestInfo() {
+        super();
+        // TODO Auto-generated constructor stub
+    }
+
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		int testId = Integer.parseInt(request.getParameter("testId"));
+		String testName = request.getParameter("testName");
+		int  numOfQuestions = Integer.parseInt(request.getParameter("numOfQuestions"));
+		try {
+			Connection conn = DatabaseConnection.getConnection();
+			String query = "UPDATE testdata SET subjectName = ?, numOfQuestion = ? WHERE id = ?";
+			PreparedStatement ps = conn.prepareStatement(query);
+			ps.setString(1, testName);
+			ps.setInt(2, numOfQuestions);
+			ps.setInt(3, testId);
+			ps.executeUpdate();
+			request.setAttribute("testName", testName);
+			request.setAttribute("numOfQuestion", numOfQuestions);
+			request.getRequestDispatcher("addQuestion.jsp").forward(request, response);
+			conn.close();
+			System.out.println("Database Connection Closed");
+		}catch(SQLException e)
+		{
+			e.printStackTrace();
+			System.out.println("Database Error");
+		}
+	}
+
+}

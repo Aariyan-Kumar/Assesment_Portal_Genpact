@@ -1,0 +1,68 @@
+@charset "UTF-8";
+body {
+    font-family: 'Arial', sans-serif;
+    background: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.result-container {
+    text-align: center;
+}
+
+.result-box {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.result-box h2 {
+    margin: 0;
+    color: #333;
+}
+
+.result-box p {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #666;
+}
+
+.result-box .score {
+    font-size: 24px;
+    font-weight: bold;
+    color: #4caf50;
+}
+
+.result-box .passed {
+    color: #4caf50;
+}
+
+.result-box .failed {
+    color: #f44336;
+}
+
+.result-box button {
+    background: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.result-box button:hover {
+    background: #45a049;
+}
+
+.result-box button:focus {
+    outline: none;
+}

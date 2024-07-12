@@ -1,0 +1,49 @@
+@charset "UTF-8";
+*{
+	margin: 0;
+	font-family: Arial, sans-serif;
+}
+table {
+	
+    width: 80%;
+    border-collapse: collapse;
+    margin: 17px auto;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+th {
+    background-color: #f2f2f2;
+}
+header, footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 25px 0;
+}
+button {
+	padding: 10px 20px;
+	background-color: #4CAF50;
+	color: white;
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+	font-size: 16px;
+	width: 10%;
+	
+}
+
+button{
+	margin: 0 auto;
+}
+button:hover {
+    background-color: #45a049;
+}
+.button-container {
+	margin: 5px 0px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}

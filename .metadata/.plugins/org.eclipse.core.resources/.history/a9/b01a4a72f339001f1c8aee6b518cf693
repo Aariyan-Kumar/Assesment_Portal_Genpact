@@ -1,0 +1,75 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%
+response.setHeader("Cache-Control", "no-cache, no-store, must-revalidate");
+response.setHeader("Pragma", "no-cache");
+response.setDateHeader("Expires", 0);
+
+if (session.getAttribute("user") == null) {
+    response.sendRedirect("index.jsp");
+    return;
+}
+
+String testName = request.getParameter("testName");
+int numOfQuestion = Integer.parseInt(request.getParameter("numOfQuestion"));
+
+%>    
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/addQuestion.css">
+<title>Adding Question</title>
+</head>
+<body>
+	<header>
+    	<h1>Add Your Questions here</h1>
+	</header>
+	
+	<form action = "AddQuestionsServlet?numOfQuestion=<%= numOfQuestion %>" method="post">
+		<h2>Adding Questions for <%= testName %></h2>
+		<%
+			for(int i = 1; i <= numOfQuestion; i++)
+			{
+		%>
+		<div>
+        <label for="question<%=i%>">Question <%=i%></label>
+        <input type="text" id="question<%=i%>" name="question<%=i%>" required>
+	    </div>
+	    <div>
+	        <label for="optionA<%=i%>">Option A</label>
+	        <input type="text" id="optionA<%=i%>" name="optionA<%=i%>" required>
+	    </div>
+	    <div>
+	        <label for="optionB<%=i%>">Option B</label>
+	        <input type="text" id="optionB<%=i%>" name="optionB<%=i%>" required>
+	    </div>
+	    <div>
+	        <label for="optionC<%=i%>">Option C</label>
+	        <input type="text" id="optionC<%=i%>" name="optionC<%=i%>" required>
+	    </div>
+	    <div>
+	        <label for="optionD<%=i%>">Option D</label>
+	        <input type="text" id="optionD<%=i%>" name="optionD<%=i%>" required>
+	    </div>
+	    <div>
+	        <label for="correctOption<%=i%>">Correct Option</label>
+	        <input type="text" id="correctOption<%=i%>" name="correctOption<%=i%>" required>
+	    </div>
+	    <div>
+	        <input type="hidden" id="testName" name="testName" value="<%= testName %>">
+	    </div>
+	    <hr>
+		<%
+			}		
+		%>	    
+	    <div>
+	        <button type="submit">Submit Questions</button>
+	    </div>
+	</form>
+	<footer>
+    	<p>&copy; 2023 Your Company</p>
+	</footer>
+</body>
+</html>

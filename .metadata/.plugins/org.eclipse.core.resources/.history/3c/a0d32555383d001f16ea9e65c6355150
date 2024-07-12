@@ -1,0 +1,45 @@
+package com.assesmentPortal2;
+
+import jakarta.servlet.ServletException; 
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+import java.io.IOException;
+
+/**
+ * Servlet implementation class EditTestInfo
+ */
+public class EditTestInfo extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
+    /**
+     * @see HttpServlet#HttpServlet()
+     */
+    public EditTestInfo() {
+        super();
+        // TODO Auto-generated constructor stub
+    }
+
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		//response.sendRedirect("admindashboard.jsp");
+		
+		String testId = request.getParameter("id");
+		System.out.println(testId);
+		if(testId != null)
+		{
+			request.setAttribute("testId", testId);
+			request.getRequestDispatcher("editTest.jsp").forward(request, response);
+		}
+		else
+		{
+			request.setAttribute("javax.servlet.error.status_code", 404);
+            request.setAttribute("javax.servlet.error.message", "Edit Test Page not found.");
+            request.getRequestDispatcher("error.jsp").forward(request, response);
+		}
+		
+	}
+
+}

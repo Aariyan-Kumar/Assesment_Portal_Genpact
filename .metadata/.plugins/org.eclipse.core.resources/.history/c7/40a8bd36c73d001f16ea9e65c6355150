@@ -1,0 +1,64 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+    
+<%
+response.setHeader("Cache-Control", "no-cache, no-store, must-revalidate");
+response.setHeader("Pragma", "no-cache");
+response.setDateHeader("Expires", 0);
+
+if (session.getAttribute("user") == null) {
+    response.sendRedirect("index.jsp");
+    return;
+}
+
+%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Update Previous Questions</title>
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/updateQuestions.css">
+</head>
+<body>
+	<header>
+       <h1>Update Previous Questions</h1>
+	</header>
+	<form action = "AddQuestionsServlet" method="post">
+		<h2>Adding Questions for <%=  %></h2>
+		<div>
+        <label for="question<%=i%>">Question <%=i%></label>
+        <input type="text" id="question<%=%>" name="question<%=i%>" required>
+	    </div>
+	    <div>
+	        <label for="optionA<%=i%>">Option A</label>
+	        <input type="text" id="optionA<%=%>" name="optionA<%=i%>" required>
+	    </div>
+	    <div>
+	        <label for="optionB<%=%>">Option B</label>
+	        <input type="text" id="optionB<%=%>" name="optionB<%=i%>" required>
+	    </div>
+	    <div>
+	        <label for="optionC<%=%>">Option C</label>
+	        <input type="text" id="optionC<%=%>" name="optionC<%=i%>" required>
+	    </div>
+	    <div>
+	        <label for="optionD<%=%>">Option D</label>
+	        <input type="text" id="optionD<%=%>" name="optionD<%=i%>" required>
+	    </div>
+	    <div>
+	        <label for="correctOption<%=%>">Correct Option</label>
+	        <input type="text" id="correctOption<%=%>" name="correctOption<%=i%>" required>
+	    </div>
+	    <div>
+	        <input type="hidden" id="testName" name="testName" value="<%=  %>">
+	    </div>
+	    <hr>    
+	    <div>
+	        <button type="submit">Submit Questions</button>
+	    </div>
+	</form>
+	<footer>
+    	<p>&copy; 2024 Our Company. All rights reserved.</p>
+	</footer>
+</body>
+</html>

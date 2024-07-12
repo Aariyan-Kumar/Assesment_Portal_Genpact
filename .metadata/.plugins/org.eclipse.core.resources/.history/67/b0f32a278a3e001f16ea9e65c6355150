@@ -1,0 +1,25 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/.css">
+<title>Student Dashboard</title>
+</head>
+<body>
+	<body>
+    <div class="container">
+        <div class="header">
+            <h1>Welcome to the Test Assessment Dashboard</h1>
+        </div>
+        <div class="cards">
+            <div class="card">
+                <h2>Test</h2>
+                <a href="#">Start Test</a>
+            </div>
+        </div>
+    </div>
+</body>
+</body>
+</html>

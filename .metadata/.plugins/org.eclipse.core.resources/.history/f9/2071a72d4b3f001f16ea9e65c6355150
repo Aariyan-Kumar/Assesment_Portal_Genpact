@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+header, footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 27px 0;
+}

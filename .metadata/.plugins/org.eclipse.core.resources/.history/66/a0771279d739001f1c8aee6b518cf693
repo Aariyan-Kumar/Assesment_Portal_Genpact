@@ -1,0 +1,56 @@
+package com.assesmentPortal2;
+
+import jakarta.servlet.ServletException; 
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+import java.io.IOException;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+
+/**
+ * Servlet implementation class AddQuestionsServlet
+ */
+public class AddQuestionsServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
+    /**
+     * @see HttpServlet#HttpServlet()
+     */
+    public AddQuestionsServlet() {
+        super();
+        // TODO Auto-generated constructor stub
+    }
+
+    /**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		String testName = request.getParameter("testName");
+		System.out.println(testName);
+	}
+    
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		String testName = request.getParameter("testName");
+		int id;
+		System.out.println(testName);
+		try {
+			Connection conn = DatabaseConnection.getConnection();
+			String query = "SELECT id FROM testdata WHERE subjectName = ?";
+			PreparedStatement ps = conn.prepareStatement(query);
+			ps.setString(1, testName);
+			ResultSet rs = ps.executeQuery();
+			conn.close();
+		}catch(SQLException e)
+		{
+			e.printStackTrace();
+		}
+	}
+
+}

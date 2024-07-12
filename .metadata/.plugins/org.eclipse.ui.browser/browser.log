@@ -1,0 +1,245 @@
+
+Jun 30, 2024 12:46:52.53 NEW SESSION
+Jun 30, 2024 12:46:52.54 Created TensorFlow Lite XNNPACK delegate for CPU.
+Jun 30, 2024 17:12:19.87 [9392:9316:0630/171219.877:ERROR:CONSOLE(1)] "Extension server error: Operation failed: http://localhost:12564/assesmentPortal/addTest.jsp has no execution context", source: devtools://devtools/bundled/devtools-frontend/front_end/models/extensions/extensions.js (1)
+Jun 30, 2024 17:30:39.57 [9392:7248:0630/173039.576:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Jun 30, 2024 17:30:53.81 [9392:7248:0630/173053.819:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Jun 30, 2024 17:45:40.60 [9392:9316:0630/174540.605:ERROR:account_info_fetcher.cc(62)] OnGetTokenFailure: Connection failed (-106).
+Jun 30, 2024 17:45:41.12 [9392:9316:0630/174541.123:ERROR:account_info_fetcher.cc(62)] OnGetTokenFailure: Connection failed (-106).
+Jun 30, 2024 17:45:41.21 [9392:9316:0630/174541.217:ERROR:account_info_fetcher.cc(62)] OnGetTokenFailure: Connection failed (-106).
+Jun 30, 2024 23:56:10.32 [9392:7248:0630/235610.324:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Jun 30, 2024 23:56:10.32 [9392:7248:0630/235610.325:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Jul 01, 2024 24:16:42.33 [9392:7248:0701/001642.333:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Jul 01, 2024 24:16:42.33 [9392:7248:0701/001642.337:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Jul 01, 2024 24:18:45.33 [9392:7248:0701/001845.333:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Jul 01, 2024 24:18:45.33 [9392:7248:0701/001845.337:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Jul 01, 2024 24:20:51.32 [9392:7248:0701/002051.321:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+Jul 01, 2024 24:20:51.32 [9392:7248:0701/002051.322:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+Jul 01, 2024 24:20:59.81 [9392:7248:0701/002059.816:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Jul 01, 2024 24:22:48.33 [9392:7248:0701/002248.331:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Jul 01, 2024 24:22:48.33 [9392:7248:0701/002248.335:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Jul 01, 2024 24:53:15.21 [9392:7248:0701/005315.215:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Jul 01, 2024 24:53:20.51 [9392:7248:0701/005320.515:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Jul 01, 2024 04:53:17.04 [9392:7248:0701/045317.049:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Jul 01, 2024 04:53:17.04 [9392:13300:0701/045317.049:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Jul 01, 2024 08:14:15.24 [9392:7248:0701/081415.240:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+Jul 01, 2024 08:14:15.34 [9392:2956:0701/081415.349:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Jul 01, 2024 08:15:55.51 [9392:7248:0701/081555.519:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Jul 01, 2024 08:35:44.72 [9392:7248:0701/083544.726:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Jul 01, 2024 09:22:10.93 [9392:7248:0701/092210.936:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Jul 01, 2024 10:32:29.89 [9392:7248:0701/103229.895:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Jul 01, 2024 10:56:40.23 [9392:7248:0701/105640.234:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -109
+Jul 01, 2024 11:57:48.29 [9392:7248:0701/115748.294:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Jul 01, 2024 12:17:30.00 [9392:7248:0701/121730.008:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -109
+Jul 01, 2024 12:39:30.34 [9392:7248:0701/123930.338:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Jul 01, 2024 16:39:31.15 [9392:7248:0701/163931.150:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -7
+Jul 01, 2024 16:39:31.18 [9392:7248:0701/163931.188:ERROR:registration_request.cc(274)] Registration URL fetching failed.
+Jul 01, 2024 16:39:31.18 [9392:7248:0701/163931.188:ERROR:registration_request.cc(274)] Registration URL fetching failed.
+Jul 01, 2024 16:39:31.35 [9392:10100:0701/163931.353:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Jul 01, 2024 18:37:20.79 [9392:7248:0701/183720.794:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+Jul 01, 2024 18:37:20.79 [9392:2956:0701/183720.795:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Jul 01, 2024 18:37:20.79 [9392:7248:0701/183720.795:ERROR:registration_request.cc(274)] Registration URL fetching failed.
+Jul 01, 2024 18:37:20.79 [9392:7248:0701/183720.795:ERROR:registration_request.cc(274)] Registration URL fetching failed.
+Jul 01, 2024 18:37:55.26 [9392:9316:0701/183755.267:ERROR:account_info_fetcher.cc(62)] OnGetTokenFailure: Connection failed (-106).
+Jul 01, 2024 18:37:55.56 [9392:9316:0701/183755.561:ERROR:account_info_fetcher.cc(62)] OnGetTokenFailure: Connection failed (-106).
+Jul 01, 2024 18:37:56.13 [9392:9316:0701/183756.136:ERROR:account_info_fetcher.cc(62)] OnGetTokenFailure: Connection failed (-106).
+Jul 01, 2024 18:38:08.15 [9392:7248:0701/183808.158:ERROR:registration_request.cc(274)] Registration URL fetching failed.
+Jul 01, 2024 18:38:10.11 [9392:7248:0701/183810.117:ERROR:registration_request.cc(274)] Registration URL fetching failed.
+Jul 01, 2024 18:43:46.41 [9392:7248:0701/184346.414:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Jul 01, 2024 18:59:53.09 [9392:7248:0701/185953.097:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -7
+Jul 01, 2024 22:08:03.03 [9392:9316:0701/220803.034:ERROR:interface_endpoint_client.cc(722)] Message 1 rejected by interface blink.mojom.WidgetHost
+Jul 01, 2024 22:42:30.65 [9392:7248:0701/224230.654:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Jul 01, 2024 22:48:10.74 [9392:7248:0701/224810.746:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -7
+Jul 01, 2024 23:29:28.52 [9392:7248:0701/232928.522:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Jul 02, 2024 03:29:28.45 [9392:7248:0702/032928.456:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -7
+Jul 02, 2024 07:56:57.13 [9392:7248:0702/075657.133:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+Jul 02, 2024 07:56:57.22 [9392:1288:0702/075657.229:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Jul 02, 2024 08:02:23.55 [9392:1288:0702/080223.554:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Jul 02, 2024 08:17:31.74 [9392:5092:0702/081731.746:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Jul 02, 2024 11:56:23.32 [9392:10100:0702/115623.321:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Jul 02, 2024 11:57:08.33 [9392:1288:0702/115708.338:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Jul 02, 2024 11:59:51.86 [9392:7248:0702/115951.851:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Jul 02, 2024 12:09:29.35 [9392:7248:0702/120929.358:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -7
+Jul 02, 2024 12:13:22.54 [9392:7248:0702/121322.543:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Jul 02, 2024 13:04:25.23 [9392:7248:0702/130425.234:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Jul 02, 2024 14:15:23.48 [9392:7248:0702/141523.486:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -7
+Jul 02, 2024 14:15:25.50 [9392:4000:0702/141525.508:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Jul 02, 2024 14:16:10.51 [9392:1288:0702/141610.514:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Jul 02, 2024 14:17:18.02 [9392:1288:0702/141718.021:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Jul 02, 2024 14:20:06.78 [9392:1288:0702/142006.784:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Jul 02, 2024 14:38:36.15 [9392:14172:0702/143836.155:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Jul 02, 2024 14:46:57.93 [9392:7248:0702/144657.938:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Jul 02, 2024 14:56:17.78 [9392:7248:0702/145617.787:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -7
+Jul 02, 2024 15:06:05.53 [9392:7248:0702/150605.531:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Jul 02, 2024 15:11:10.02 [9392:7248:0702/151110.024:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -7
+Jul 02, 2024 20:06:27.22 [9392:7248:0702/200627.222:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+Jul 02, 2024 20:06:27.23 [9392:2956:0702/200627.239:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Jul 02, 2024 20:06:46.31 [9392:7248:0702/200646.316:ERROR:checkin_request.cc(243)] Check-in request got net error: -106
+Jul 02, 2024 20:07:00.70 [9392:9316:0702/200700.704:ERROR:account_info_fetcher.cc(62)] OnGetTokenFailure: Connection failed (-106).
+Jul 02, 2024 20:07:01.39 [9392:9316:0702/200701.397:ERROR:account_info_fetcher.cc(62)] OnGetTokenFailure: Connection failed (-106).
+Jul 02, 2024 20:07:01.67 [9392:9316:0702/200701.678:ERROR:account_info_fetcher.cc(62)] OnGetTokenFailure: Connection failed (-106).
+Jul 02, 2024 20:07:12.24 [9392:1288:0702/200712.243:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Jul 02, 2024 20:07:16.08 [9392:7248:0702/200716.088:ERROR:checkin_request.cc(243)] Check-in request got net error: -106
+Jul 02, 2024 20:08:14.95 [9392:7248:0702/200814.950:ERROR:checkin_request.cc(243)] Check-in request got net error: -106
+Jul 02, 2024 20:08:40.30 [9392:7248:0702/200840.306:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Jul 02, 2024 20:08:50.78 [9392:7248:0702/200850.787:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Jul 02, 2024 20:08:50.79 [9392:4000:0702/200850.791:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NETWORK_CHANGED)
+Jul 02, 2024 20:09:00.22 [9392:7248:0702/200900.224:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Jul 02, 2024 20:09:03.63 [9392:7248:0702/200903.633:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Jul 02, 2024 20:09:05.65 [9392:1288:0702/200905.654:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Jul 02, 2024 20:09:06.84 [9392:9316:0702/200906.838:ERROR:device_event_log_impl.cc(196)] [20:09:06.839] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Jul 02, 2024 20:21:40.91 [9392:7248:0702/202140.910:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Jul 03, 2024 01:15:44.58 [9392:9316:0703/011544.580:ERROR:interface_endpoint_client.cc(722)] Message 0 rejected by interface blink.mojom.WidgetHost
+Jul 03, 2024 02:30:57.17 [9392:7248:0703/023057.178:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Jul 03, 2024 06:30:57.12 [9392:7248:0703/063057.125:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Jul 03, 2024 08:11:50.11 [9392:5092:0703/081150.117:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_TIMED_OUT)
+Jul 03, 2024 08:11:50.30 [9392:7248:0703/081150.308:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+Jul 03, 2024 08:14:57.66 [9392:1288:0703/081457.664:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Jul 03, 2024 08:45:44.10 [9392:7248:0703/084544.107:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Jul 03, 2024 11:31:09.37 [9392:1288:0703/113109.377:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_CONNECTION_CLOSED)
+Jul 03, 2024 12:04:21.44 [9392:7248:0703/120421.446:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Jul 03, 2024 12:04:23.46 [9392:7248:0703/120423.465:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+Jul 03, 2024 17:20:10.94 [9392:11372:0703/172010.940:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Jul 03, 2024 17:21:25.95 [9392:1288:0703/172125.950:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Jul 03, 2024 18:36:52.72 [9392:5016:0703/183652.723:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Jul 03, 2024 18:38:04.89 [9392:7248:0703/183804.890:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Jul 03, 2024 19:42:47.00 [9392:7248:0703/194247.002:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Jul 03, 2024 20:32:43.52 [9392:7248:0703/203243.525:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Jul 03, 2024 20:35:28.48 [9392:7248:0703/203528.479:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -109
+Jul 03, 2024 20:56:49.07 [9392:7248:0703/205649.076:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Jul 03, 2024 21:11:49.06 [9392:7248:0703/211149.062:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Jul 03, 2024 21:14:09.14 [9392:7248:0703/211409.140:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -109
+Jul 03, 2024 21:32:00.80 [9392:7248:0703/213200.800:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Jul 03, 2024 21:46:11.21 [9392:7248:0703/214611.218:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Jul 03, 2024 21:58:49.74 [9392:7248:0703/215849.739:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -7
+Jul 03, 2024 22:19:27.82 [9392:7248:0703/221927.826:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Jul 03, 2024 22:53:23.25 [9392:7248:0703/225323.256:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -7
+Jul 03, 2024 22:57:07.34 [9392:7248:0703/225707.342:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Jul 03, 2024 22:57:20.94 [9392:7248:0703/225720.946:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -109
+Jul 03, 2024 23:34:12.72 [9392:9316:0703/233412.725:ERROR:interface_endpoint_client.cc(722)] Message 0 rejected by interface blink.mojom.WidgetHost
+Jul 03, 2024 23:35:38.24 [9392:9316:0703/233538.246:ERROR:interface_endpoint_client.cc(722)] Message 0 rejected by interface blink.mojom.WidgetHost
+Jul 04, 2024 24:09:32.09 [9392:7248:0704/000932.097:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Jul 04, 2024 24:26:02.03 [9392:7248:0704/002602.029:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -7
+Jul 04, 2024 04:26:02.04 [9392:7248:0704/042602.049:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+Jul 04, 2024 04:26:02.04 [9392:11372:0704/042602.049:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NAME_NOT_RESOLVED)
+Jul 04, 2024 10:27:56.26 [9392:7248:0704/102756.263:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+Jul 04, 2024 10:27:56.34 [9392:5016:0704/102756.349:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Jul 04, 2024 10:29:09.32 [9392:7248:0704/102909.325:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Jul 04, 2024 10:29:09.32 [9392:10100:0704/102909.327:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NAME_NOT_RESOLVED)
+Jul 04, 2024 11:00:01.67 [9392:7248:0704/110001.677:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Jul 04, 2024 11:05:01.06 [9392:7248:0704/110501.063:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -7
+Jul 04, 2024 11:30:56.18 [9392:7248:0704/113056.183:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Jul 04, 2024 12:04:12.13 [9392:7248:0704/120412.135:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Jul 04, 2024 12:12:09.65 [9392:7248:0704/121209.657:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -7
+Jul 04, 2024 12:12:09.65 [9392:5016:0704/121209.658:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NETWORK_IO_SUSPENDED)
+Jul 04, 2024 12:52:21.54 [9392:7248:0704/125221.539:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Jul 04, 2024 13:14:32.51 [9392:7248:0704/131432.512:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Jul 04, 2024 13:40:47.70 [9392:7248:0704/134047.707:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -7
+Jul 04, 2024 13:44:07.39 [9392:7248:0704/134407.390:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Jul 04, 2024 14:50:17.10 [9392:7248:0704/145017.108:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -7
+Jul 04, 2024 14:50:17.23 [9392:12152:0704/145017.231:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NETWORK_CHANGED)
+Jul 04, 2024 14:51:32.25 [9392:1288:0704/145132.251:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Jul 04, 2024 14:53:24.75 [9392:1288:0704/145324.758:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Jul 04, 2024 14:58:06.01 [9392:1288:0704/145806.017:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Jul 04, 2024 15:08:06.03 [9392:1288:0704/150806.035:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Jul 04, 2024 15:18:06.05 [9392:1288:0704/151806.050:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Jul 04, 2024 15:28:06.07 [9392:1288:0704/152806.069:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Jul 04, 2024 15:38:06.07 [9392:1288:0704/153806.078:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Jul 04, 2024 15:48:06.08 [9392:1288:0704/154806.087:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Jul 04, 2024 15:58:06.09 [9392:1288:0704/155806.097:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Jul 04, 2024 16:03:34.34 [9392:7248:0704/160334.339:ERROR:mcs_client.cc(749)] Received close command, resetting connection.
+Jul 04, 2024 16:47:04.12 [9392:7248:0704/164704.122:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Jul 04, 2024 18:39:08.01 [9392:7248:0704/183907.997:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Jul 04, 2024 19:12:43.57 [9392:7248:0704/191243.567:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Jul 04, 2024 19:23:05.54 [9392:7248:0704/192305.539:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -7
+Jul 04, 2024 20:59:13.75 [9392:7248:0704/205913.752:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Jul 04, 2024 21:02:32.95 [9392:7248:0704/210232.959:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Jul 04, 2024 21:20:23.49 [9392:7248:0704/212023.498:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Jul 05, 2024 01:20:23.63 [9392:7248:0705/012023.638:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -109
+Jul 05, 2024 01:20:23.76 [9392:5092:0705/012023.769:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NETWORK_CHANGED)
+Jul 05, 2024 14:22:35.21 [9392:7248:0705/142235.218:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+Jul 05, 2024 14:22:35.22 [9392:7248:0705/142235.225:ERROR:checkin_request.cc(243)] Check-in request got net error: -106
+Jul 05, 2024 14:22:35.32 [9392:2956:0705/142235.327:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Jul 05, 2024 14:23:02.97 [9392:7248:0705/142302.971:ERROR:checkin_request.cc(243)] Check-in request got net error: -106
+
+Jul 11, 2024 12:34:03.91 NEW SESSION
+Jul 11, 2024 12:34:03.92 Created TensorFlow Lite XNNPACK delegate for CPU.
+Jul 11, 2024 13:08:45.84 [11272:3604:0711/130845.843:ERROR:device_event_log_impl.cc(196)] [13:08:45.843] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Jul 11, 2024 13:42:15.09 [11272:3604:0711/134215.090:ERROR:device_event_log_impl.cc(196)] [13:42:15.086] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Jul 11, 2024 13:42:15.09 [11272:3604:0711/134215.095:ERROR:device_event_log_impl.cc(196)] [13:42:15.094] USB: usb_service_win.cc:308 SetupDiEnumDeviceInterfaces: No more data is available. (0x103)
+Jul 11, 2024 13:44:15.14 [11272:9896:0711/134415.144:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Jul 11, 2024 13:45:00.14 [11272:9896:0711/134500.149:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Jul 11, 2024 13:46:07.66 [11272:9896:0711/134607.664:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Jul 11, 2024 13:48:56.41 [11272:9896:0711/134856.418:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Jul 11, 2024 13:55:58.31 [11272:9896:0711/135558.319:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Jul 11, 2024 13:59:53.60 [11272:3604:0711/135953.600:ERROR:device_event_log_impl.cc(196)] [13:59:53.586] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Jul 11, 2024 14:05:58.33 [11272:9896:0711/140558.331:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Jul 11, 2024 14:15:58.34 [11272:9896:0711/141558.342:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Jul 11, 2024 14:25:58.34 [11272:9896:0711/142558.348:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Jul 11, 2024 14:35:58.37 [11272:9896:0711/143558.374:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Jul 11, 2024 14:45:58.38 [11272:9896:0711/144558.386:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Jul 11, 2024 14:55:58.39 [11272:9896:0711/145558.398:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Jul 11, 2024 14:56:54.39 [11272:3604:0711/145654.397:ERROR:device_event_log_impl.cc(196)] [14:56:54.397] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Jul 11, 2024 14:56:54.40 [11272:3604:0711/145654.409:ERROR:device_event_log_impl.cc(196)] [14:56:54.409] USB: usb_service_win.cc:308 SetupDiEnumDeviceInterfaces: No more data is available. (0x103)
+Jul 11, 2024 14:57:30.50 [11272:3604:0711/145730.508:ERROR:device_event_log_impl.cc(196)] [14:57:30.507] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Jul 11, 2024 15:05:58.42 [11272:9896:0711/150558.420:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Jul 11, 2024 15:15:58.43 [11272:9896:0711/151558.431:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Jul 11, 2024 15:25:58.44 [11272:9896:0711/152558.447:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Jul 11, 2024 15:35:58.44 [11272:9896:0711/153558.449:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Jul 11, 2024 15:45:58.46 [11272:9896:0711/154558.467:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Jul 11, 2024 15:55:58.48 [11272:9896:0711/155558.479:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Jul 11, 2024 16:05:58.48 [11272:9896:0711/160558.488:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Jul 11, 2024 16:15:58.51 [11272:9896:0711/161558.510:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Jul 11, 2024 16:25:58.51 [11272:9896:0711/162558.517:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Jul 11, 2024 16:35:58.53 [11272:9896:0711/163558.533:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Jul 11, 2024 16:45:58.53 [11272:9896:0711/164558.537:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Jul 11, 2024 16:55:58.54 [11272:9896:0711/165558.543:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Jul 11, 2024 17:05:58.56 [11272:9896:0711/170558.561:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Jul 11, 2024 17:15:58.57 [11272:9896:0711/171558.573:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Jul 11, 2024 17:21:52.30 [11272:3604:0711/172152.308:ERROR:device_event_log_impl.cc(196)] [17:21:52.308] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Jul 11, 2024 17:21:52.31 [11272:3604:0711/172152.316:ERROR:device_event_log_impl.cc(196)] [17:21:52.314] USB: usb_service_win.cc:308 SetupDiEnumDeviceInterfaces: No more data is available. (0x103)
+Jul 11, 2024 17:29:57.59 [11272:9284:0711/172957.592:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Jul 11, 2024 17:39:19.53 [11272:3604:0711/173919.539:ERROR:device_event_log_impl.cc(196)] [17:39:19.531] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Jul 11, 2024 17:39:19.55 [11272:3604:0711/173919.555:ERROR:device_event_log_impl.cc(196)] [17:39:19.546] USB: usb_service_win.cc:308 SetupDiEnumDeviceInterfaces: No more data is available. (0x103)
+Jul 11, 2024 17:39:19.55 [11272:3604:0711/173919.555:ERROR:device_event_log_impl.cc(196)] [17:39:19.548] USB: usb_service_win.cc:308 SetupDiEnumDeviceInterfaces: No more data is available. (0x103)
+Jul 11, 2024 18:53:24.61 [11272:9896:0711/185324.610:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Jul 11, 2024 18:53:58.56 [11272:3604:0711/185358.569:ERROR:device_event_log_impl.cc(196)] [18:53:58.560] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Jul 11, 2024 19:03:24.63 [11272:13628:0711/190324.633:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Jul 11, 2024 19:13:24.64 [11272:9896:0711/191324.641:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Jul 11, 2024 19:23:24.65 [11272:9896:0711/192324.658:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Jul 11, 2024 19:33:24.67 [11272:9896:0711/193324.678:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Jul 11, 2024 19:43:24.68 [11272:9896:0711/194324.681:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Jul 11, 2024 19:53:24.69 [11272:9896:0711/195324.693:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Jul 11, 2024 20:03:24.70 [11272:9896:0711/200324.704:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Jul 11, 2024 20:13:11.35 [11272:13852:0711/201311.351:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Jul 11, 2024 20:13:11.38 [11272:9896:0711/201311.387:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NETWORK_CHANGED)
+Jul 11, 2024 21:30:44.49 [11272:3604:0711/213044.489:ERROR:interface_endpoint_client.cc(722)] Message 0 rejected by interface blink.mojom.WidgetHost
+Jul 11, 2024 21:54:17.55 [11272:13852:0711/215417.549:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Jul 12, 2024 24:51:32.35 [11272:13852:0712/005132.354:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Jul 12, 2024 24:51:32.36 [11272:11456:0712/005132.362:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NETWORK_IO_SUSPENDED)
+Jul 12, 2024 09:05:16.25 [11272:13852:0712/090516.256:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+Jul 12, 2024 09:05:16.29 [11272:5880:0712/090516.293:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Jul 12, 2024 09:08:23.80 [11272:9896:0712/090823.806:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Jul 12, 2024 09:16:12.56 [11272:9896:0712/091612.569:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Jul 12, 2024 09:39:27.00 [11272:2344:0712/093927.003:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NETWORK_IO_SUSPENDED)
+Jul 12, 2024 13:01:30.21 [11272:13628:0712/130130.211:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Jul 12, 2024 13:02:04.05 [11272:3604:0712/130204.051:ERROR:account_info_fetcher.cc(62)] OnGetTokenFailure: Connection failed (-106).
+Jul 12, 2024 13:02:04.31 [11272:3604:0712/130204.316:ERROR:account_info_fetcher.cc(62)] OnGetTokenFailure: Connection failed (-106).
+Jul 12, 2024 14:44:40.70 [11272:13852:0712/144440.705:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Jul 12, 2024 14:45:45.92 [11272:13852:0712/144545.929:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Jul 12, 2024 14:49:16.12 [11272:13852:0712/144916.128:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Jul 12, 2024 15:25:00.88 [11272:3604:0712/152500.884:ERROR:device_event_log_impl.cc(196)] [15:25:00.891] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Jul 12, 2024 15:33:50.57 [11272:9896:0712/153350.574:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_CONNECTION_TIMED_OUT)
+Jul 12, 2024 15:40:04.26 [11272:13852:0712/154004.267:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Jul 12, 2024 15:43:31.67 [11272:13852:0712/154331.671:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -100
+Jul 12, 2024 15:43:52.71 [11272:13852:0712/154352.711:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -118
+Jul 12, 2024 15:44:36.34 [11272:13852:0712/154436.347:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -118
+Jul 12, 2024 15:50:04.45 [11272:9896:0712/155004.455:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NAME_NOT_RESOLVED)
+Jul 12, 2024 15:51:43.86 [11272:9896:0712/155143.867:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_CONNECTION_RESET)
+Jul 12, 2024 15:53:22.94 [11272:9896:0712/155322.942:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_CONNECTION_TIMED_OUT)
+Jul 12, 2024 15:54:02.64 [11272:13852:0712/155402.642:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Jul 12, 2024 15:54:31.30 [11272:13852:0712/155431.307:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -100
+Jul 12, 2024 16:00:59.37 [11272:13852:0712/160059.374:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Jul 12, 2024 16:03:19.65 [11272:3604:0712/160319.652:ERROR:device_event_log_impl.cc(196)] [16:03:19.651] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Jul 12, 2024 16:09:15.91 [11272:13852:0712/160915.916:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Jul 12, 2024 20:06:53.03 [11272:13852:0712/200653.038:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105

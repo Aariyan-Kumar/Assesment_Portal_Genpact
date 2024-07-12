@@ -1,0 +1,55 @@
+<%@page import="java.util.ArrayList"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ page import="com.assesmentPortal2.GetAndSetQuestion, com.assesmentPortal2.GetQuestionData, java.util.*" %>
+<%
+	response.setHeader("Cache-Control", "no-cache, no-store, must-revalidate");
+	response.setHeader("Pragma", "no-cache");
+	response.setDateHeader("Expires", 0);
+	
+	if (session.getAttribute("user") == null) {
+	    response.sendRedirect("index.jsp");
+	    return;
+	}
+
+	
+
+	String id = (String)request.getAttribute("id");
+	String testName = (String)request.getAttribute("testName");
+	
+	
+%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/parikshaPage.css">
+<title><%= testName %> Exam</title>
+</head>
+<body>
+	<header>
+    	<h1>Welcome to Pariksha Page</h1>
+	</header>
+	<h1><%= testName %> Exam</h1>
+	<form action="">
+		<div class="container">
+			<%
+				List<GetAndSetQuestion> questions = GetQuestionData.getAllQuestions(id);
+				int i = 1; 
+				for(GetAndSetQuestion question : questions)
+				{
+			%>
+		    <div class="questionContainer">
+				<h4><span></span> <%= question.getQuestion() %> </h4>
+		    </div>
+		    <%
+				}
+		    %>
+		</div>
+	</form>
+	
+	<footer>
+    	<p>&copy; 2023 Our Company</p>
+	</footer>
+</body>
+</html>

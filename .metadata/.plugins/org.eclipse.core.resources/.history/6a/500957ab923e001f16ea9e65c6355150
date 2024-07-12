@@ -1,0 +1,38 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ page import="com.assesmentPortal2.TestInfo, com.assesmentPortal2.GetTestData, java.util.*" %>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/studentdashboard.css">
+<title>Student Dashboard</title>
+</head>
+<body>
+	<body>
+    <div class="container">
+        <div class="header">
+            <h1>Welcome to the Test Assessment Dashboard</h1>
+        </div>
+        <div class="cards">
+        <%
+	        List<TestInfo> tests = GetTestData.getAllTest();
+	        int i = 1;
+	        for (TestInfo test : tests) {
+        %>
+            <div class="card">
+                <h2><%= test.getTestName() %></h2>
+                <p style="text-align: left; text-shadow: blue;">Java is a multi-platform, object-oriented, and network-centric language that can be used as a platform in itself. It is a fast, secure, reliable programming language for coding everything from mobile apps and enterprise software to big data applications and server-side technologies.</p>
+                <a href="Pariksha?id=<%= test.getId()%>">Start Test</a>
+            </div>
+        <%
+	        }
+        %>
+        </div>
+    </div>
+    <footer>
+    	<p>&copy; 2023 Our Company</p>
+	</footer>
+</body>
+</body>
+</html>

@@ -1,0 +1,20 @@
+package com.assesmentPortal2;
+
+import java.sql.Connection;
+import java.sql.SQLException;
+
+public class AddQuestions {
+	public static void addQuestions(GetAndSetQuestion question)
+	{
+		try
+		{
+			Connection conn = DatabaseConnection.getConnection();
+			
+			conn.close();
+		}catch(SQLException e)
+		{
+			e.printStackTrace();
+			System.out.println("Database Connection Error");
+		}
+	}
+}

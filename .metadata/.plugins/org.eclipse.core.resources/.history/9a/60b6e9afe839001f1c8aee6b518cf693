@@ -1,0 +1,10 @@
+package com.assesmentPortal2;
+
+public class GetAndSetQuestion {
+	String question;
+	String optionA ;
+	String optionB;
+	String optionC;
+	String optionD;
+	String correctOption;
+}

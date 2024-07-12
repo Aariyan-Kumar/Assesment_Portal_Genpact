@@ -1,0 +1,39 @@
+package com.assesmentPortal2;
+
+import jakarta.servlet.ServletException;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+import java.io.IOException;
+import java.util.List;
+
+/**
+ * Servlet implementation class ParikshResult
+ */
+public class ParikshResult extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
+    /**
+     * @see HttpServlet#HttpServlet()
+     */
+    public ParikshResult() {
+        super();
+        // TODO Auto-generated constructor stub
+    }
+
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		String id = request.getParameter("id");
+		List<GetAndSetQuestion> questions = GetQuestionData.getAllQuestions(id);
+		int i = 1; 
+		for(GetAndSetQuestion question : questions)
+		{
+			
+		}
+		
+	}
+
+}

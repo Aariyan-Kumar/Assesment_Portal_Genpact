@@ -1,0 +1,33 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+    
+<%
+	String testId = (String)request.getAttribute("testId");
+	String subjectName = (String)request.getAttribute("subjectName");
+	int numOfQuestion = (int)request.getAttribute("numOfQuestion");
+%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Edit Page</title>
+</head>
+<body>
+	<header>
+    	<h1>Welcome to Edit Test Page</h1>
+	</header>
+	<h1>Edit Test</h1>
+    <form action="UpdateTestInfo" method="post">
+        <input type="hidden" name="testId" value="<%= testId %>">
+        <label for="testName">Test Name:</label>
+        <input type="text" id="testName" name="testName" value="<%= subjectName %>" readonly><br>
+        <label for="numOfQuestions">Number of Questions:</label>
+        <input type="number" id="numOfQuestions" name="numOfQuestions" value="<%= numOfQuestion %>"><br>
+        <input type="submit" value="Update">
+    </form>
+    <p>For Updating the Questions -></p>
+    <footer>
+    	<p>&copy; 2023 Our Company</p>
+	</footer>
+</body>
+</html>

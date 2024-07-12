@@ -1,0 +1,55 @@
+package com.assesmentPortal2;
+
+import jakarta.servlet.ServletException; 
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+import java.io.IOException;
+import java.sql.Connection;
+import java.sql.SQLException;
+
+/**
+ * Servlet implementation class UpdateQuestionsServlet
+ */
+public class UpdateQuestionsServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
+    /**
+     * @see HttpServlet#HttpServlet()
+     */
+    public UpdateQuestionsServlet() {
+        super();
+        // TODO Auto-generated constructor stub
+    }
+
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		try { 	 	
+			Connection conn = DatabaseConnection.getConnection();
+			
+			for(int i = 1; ; i++)
+			{
+				String question = request.getParameter("question" + i);
+				String optionA = request.getParameter("optionA" + i);
+				String optionB = request.getParameter("optionB" + i);
+				String optionC = request.getParameter("optionC" + i);
+				String optionD = request.getParameter("optionD" + i);
+				String correctOption = request.getParameter("correctOption" + i);
+				int id = Integer.parseInt(request.getParameter("testId" + i));
+				
+				
+				String query = "UPDATE questions SET question = ?, optionA = ?, optionB = ?, optionC = ?, optionD = ?, correctOption = ? WHERE id = ?";
+				conn.close();
+			}
+			
+			
+		}catch(SQLException e)
+		{
+			e.printStackTrace();
+			System.out.println("Database Error");
+		}
+	}
+
+}

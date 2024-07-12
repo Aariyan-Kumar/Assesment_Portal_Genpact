@@ -1,0 +1,93 @@
+<%@page import="com.assesmentPortal2.GetQuestionData, java.util.*, com.assesmentPortal2.GetAndSetQuestion, java.sql.*, com.assesmentPortal2.DatabaseConnection"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+    
+<%
+response.setHeader("Cache-Control", "no-cache, no-store, must-revalidate");
+response.setHeader("Pragma", "no-cache");
+response.setDateHeader("Expires", 0);
+
+if (session.getAttribute("user") == null) {
+    response.sendRedirect("index.jsp");
+    return;
+}
+
+String testId = request.getParameter("id");
+String testName = "";
+try{
+	Connection conn = DatabaseConnection.getConnection();
+	String query = "SELECT subjectName FROM testdata WHERE id = ?";
+	PreparedStatement ps = conn.prepareStatement(query);
+	ps.setString(1, testId);
+	ResultSet rs = ps.executeQuery();
+	if(rs.next())
+	{
+		testName = rs.getString("subjectName");
+	}
+	
+}catch(SQLException e){
+	e.printStackTrace();
+}
+
+
+%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Update Previous Questions</title>
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/updateQuestions.css">
+</head>
+<body>
+	<header>
+       <h1>Update Previous Questions</h1>
+	</header>
+	<form action = "UpdateQuestionsServlet" method="post">
+		<h2>Updating Questions for <%= testName %></h2>
+		<%
+			
+            List<GetAndSetQuestion> questions = GetQuestionData.getAllQuestions(testId);
+            int i = 1;
+            for (GetAndSetQuestion question : questions) {
+		%>
+		<div>
+        <label for="question<%= i %>">Question <%= i %></label>
+        <input type="text" id="question<%= i %>" name="question<%= i %>" value="<%= question.getQuestion() %>" required>
+	    </div>
+	    <div>
+	        <label for="optionA<%= i %>">Option A</label>
+	        <input type="text" id="optionA<%= i %>" name="optionA<%= i %>" value="<%= question.getOptionA() %>" required>
+	    </div>
+	    <div>
+	        <label for="optionB<%= i %>">Option B</label>
+	        <input type="text" id="optionB<%= i %>" name="optionB<%= i %>" value="<%= question.getOptionB() %>" required>
+	    </div>
+	    <div>
+	        <label for="optionC<%= i %>">Option C</label>
+	        <input type="text" id="optionC<%= i %>" name="optionC<%= i %>" value="<%= question.getOptionC() %>" required>
+	    </div>
+	    <div>
+	        <label for="optionD<%= i %>">Option D</label>
+	        <input type="text" id="optionD<%= i %>" name="optionD<%= i %>" value="<%= question.getOptionD() %>" required>
+	    </div>
+	    <div>
+	        <label for="correctOption<%= i %>">Correct Option</label>
+	        <input type="text" id="correctOption<%= i %>" name="correctOption<%= i %>" value="<%= question.getCorrectOption() %>" required>
+	    </div>
+	    <div>
+	        <input type="text" id="testId" name="testId<%= i %>" value="<%= question.getId()%>">
+	    </div>
+	    <hr>  
+	    <%
+	    	i++;
+			}		
+		%>  
+	    <div>
+	        <button type="submit">Update Questions</button>
+	    </div>
+	</form>
+	<footer>
+    	<p>&copy; 2024 Our Company. All rights reserved.</p>
+	</footer>
+</body>
+</html>

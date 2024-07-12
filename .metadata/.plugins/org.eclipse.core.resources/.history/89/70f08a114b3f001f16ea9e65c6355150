@@ -1,0 +1,38 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+    
+<%
+	response.setHeader("Cache-Control", "no-cache, no-store, must-revalidate");
+	response.setHeader("Pragma", "no-cache");
+	response.setDateHeader("Expires", 0);
+	
+	if (session.getAttribute("user") == null) {
+	    response.sendRedirect("index.jsp");
+	    return;
+	}
+
+	
+
+	String id = (String)request.getAttribute("id");
+	String testName = (String)request.getAttribute("testName");
+	
+	
+	
+%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/parikshaPage.css">
+<title><%= testName %> Exam</title>
+</head>
+<body>
+	<header>
+    	<h1>Welcome to Admin Dashboard</h1>
+	</header>
+	<h1><%= testName %> Exam</h1>
+	<footer>
+    	<p>&copy; 2023 Our Company</p>
+	</footer>
+</body>
+</html>

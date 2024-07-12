@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #d9534f; /* Red color for error messages */
+    text-align: center;
+    margin-top: 50px;
+}
+
+h2 {
+    color: #5bc0de; /* Light blue color for subheadings */
+    text-align: center;
+    margin-top: 30px;
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+}
+
+.error-container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+pre {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    padding: 10px;
+    overflow-x: auto;
+    white-space: pre-wrap; /* Wrap long lines */
+    border-radius: 4px;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 50px;
+    color: #777;
+}
+
+.footer a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}

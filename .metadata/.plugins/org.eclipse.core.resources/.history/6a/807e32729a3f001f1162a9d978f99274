@@ -1,0 +1,73 @@
+<%@page import="java.util.ArrayList"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ page import="com.assesmentPortal2.GetAndSetQuestion, com.assesmentPortal2.GetQuestionData, java.util.*" %>
+<%
+	response.setHeader("Cache-Control", "no-cache, no-store, must-revalidate");
+	response.setHeader("Pragma", "no-cache");
+	response.setDateHeader("Expires", 0);
+	
+	if (session.getAttribute("user") == null) {
+	    response.sendRedirect("index.jsp");
+	    return;
+	}
+
+	
+
+	String id = (String)request.getAttribute("id");
+	String testName = (String)request.getAttribute("testName");
+	
+	
+%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/parikshaPage.css">
+<title><%= testName %> Exam</title>
+</head>
+<script type="text/javascript">
+	function clearResponse(questionIndex) {
+	    var radios = document.querySelectorAll('input[name="q' + questionIndex + '"]');
+	    radios.forEach(radio => radio.checked = false);
+	}
+	
+	window.addEventListener("beforeunload", function (e) {
+        var confirmationMessage = "You have an ongoing exam. Please submit it before leaving.";
+        (e || window.event).returnValue = confirmationMessage; // Standard for most browsers
+    });
+</script>
+<body>
+	<header>
+    	<h1>Welcome to Pariksha Page</h1>
+	</header>
+	<h1><%= testName %> Exam</h1>
+	<form action="">
+		<div class="container">
+			<%
+				List<GetAndSetQuestion> questions = GetQuestionData.getAllQuestions(id);
+				int i = 1; 
+				for(GetAndSetQuestion question : questions)
+				{
+			%>
+		    <div class="questionContainer">
+				<h4><%= i++ %>) <%= question.getQuestion() %> </h4>
+				<input type="radio" name="q<%= i %>" value="a"> <%= question.getOptionA() %> <br>
+	            <input type="radio" name="q<%= i %>" value="b"> <%= question.getOptionB() %> <br>
+	            <input type="radio" name="q<%= i %>" value="c"> <%= question.getOptionC() %> <br>
+	            <input type="radio" name="q<%= i %>" value="d"> <%= question.getOptionD() %> <br>
+	            <button type="button" onclick="clearResponse(<%= i %>)">Clear Response</button>
+		    </div>
+		    <%
+				}
+		    %>
+		    
+		</div>
+		<button type="submit" >Submit</button>
+	</form>
+	
+	<footer>
+    	<p>&copy; 2023 Our Company</p>
+	</footer>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+    
+<%
+	
+	response.setHeader("Cache-Control", "no-cache, no-store, must-revalidate");
+	response.setHeader("Pragma", "no-cache");
+	response.setDateHeader("Expires", 0);
+	
+	String testId = (String)request.getAttribute("testId");
+	String subjectName = (String)request.getAttribute("subjectName");
+	int numOfQuestion = (int)request.getAttribute("numOfQuestion");
+%>
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/editTest.css">
+<meta charset="UTF-8">
+<title>Edit Page</title>
+</head>
+<script type="text/javascript">
+    function redirectToPage() {
+        window.location.href = 'updateQuestions.jsp?id='; // Replace 'targetPage.jsp' with the desired URL
+    }
+</script>
+<body>
+	<header>
+    	<h1>Welcome to Edit Test Page</h1>
+	</header>
+	<h1>Edit Test</h1>
+    <form action="UpdateTestInfo?id=<%= testId %>" method="post">
+        <input type="hidden" name="testId" value="<%= testId %>">
+        <label for="testName">Test Name:</label>
+        <input type="text" id="testName" name="testName" value="<%= subjectName %>" readonly><br>
+        <label for="numOfQuestions">Number of Questions:</label>
+        <input type="number" id="numOfQuestions" name="numOfQuestions" value="<%= numOfQuestion %>"><br>
+        <input type="submit" value="Update">
+    </form>
+    <p>For Updating the Questions Click the button:</p>
+    <button onclick= "window.location.href = 'updateQuestions.jsp?id=testId'">Update Questions</button>
+    <footer>
+    	<p>&copy; 2023 Our Company</p>
+	</footer>
+</body>
+</html>
